@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gasoils",
+  "info": {
+    "name": "gasoil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "station": {
+      "via": "gasoils",
+      "model": "station"
+    }
+  }
+}

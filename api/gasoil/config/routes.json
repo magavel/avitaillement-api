@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gasoils",
+      "handler": "gasoil.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gasoils/count",
+      "handler": "gasoil.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gasoils/:id",
+      "handler": "gasoil.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gasoils",
+      "handler": "gasoil.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gasoils/:id",
+      "handler": "gasoil.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gasoils/:id",
+      "handler": "gasoil.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
