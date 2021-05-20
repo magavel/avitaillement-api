@@ -25,6 +25,14 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/stations/:id/gasoils",
+      "handler": "station.findGasoilsByStation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "POST",
       "path": "/stations",
       "handler": "station.create",
